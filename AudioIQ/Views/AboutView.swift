@@ -25,7 +25,7 @@ struct AboutView: View {
                         .foregroundStyle(DS.subtext)
                 }
 
-                Text("Train your ears. Elevate your mix.\n\nAudio IQ is an ear-training app built for audio engineers, not musicians — practice recognizing EQ moves, compression, distortion, reverb, delay, phase issues, limiting, saturation, and codec artifacts on real recordings across dozens of genres.")
+                Text("Train your ears. Elevate your mix.\n\nAudio IQ is an ear-training app built for audio engineers — practice recognizing EQ moves, compression, distortion, reverb, delay, phase issues, limiting, saturation, and codec artifacts on real recordings across dozens of genres.")
                     .font(.subheadline)
                     .foregroundStyle(DS.subtext)
                     .multilineTextAlignment(.center)
