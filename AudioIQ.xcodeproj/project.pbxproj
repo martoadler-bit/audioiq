@@ -473,7 +473,7 @@
 		63975DB1859D0775A3AF2087 /* loop_240.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = loop_240.wav; sourceTree = "<group>"; };
 		63A023C9F561046C762266FE /* loop_194.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = loop_194.wav; sourceTree = "<group>"; };
 		63B96F6031B6E8D52B017B51 /* ProgressTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTracker.swift; sourceTree = "<group>"; };
-		6470584B90223EC5DFECB0C8 /* AudioIQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6470584B90223EC5DFECB0C8 /* AudioIQ.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AudioIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B7BF6AE814EE256A303CB0 /* loop_130.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = loop_130.wav; sourceTree = "<group>"; };
 		64CA2FAAD5DB97AF0AB53FC2 /* loop_104.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = loop_104.wav; sourceTree = "<group>"; };
 		66FCCA1D7AEC87E70CD7C985 /* loop_159.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = loop_159.wav; sourceTree = "<group>"; };
@@ -1086,6 +1086,8 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 9F93965BE9F29C11B42A1576 /* Build configuration list for PBXProject "AudioIQ" */;
 			developmentRegion = en;
@@ -1581,13 +1583,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 228T6U2RV4;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AudioIQ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apss.audioiq;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1600,13 +1603,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 228T6U2RV4;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AudioIQ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.apss.audioiq;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
